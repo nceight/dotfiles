@@ -1,0 +1,71 @@
+live_config_reload: true
+
+shell:
+  program: /usr/bin/zsh
+
+scrolling:
+    history: 10000
+    multiplier: 3
+
+selection:
+    semantic_escape_chars: '|:"'' {}()[]<>'
+    save_to_clipboard: true
+
+window:
+  padding:
+    x: 10
+    y: 10
+  class:
+    instance: Alacritty
+    general: Alacritty
+  decorations: none
+  #startup_mode: Maximized
+
+font:
+  normal:
+    family: Iosevka Term
+    style: Regular
+  bold:
+    family: Iosevka Term
+    style: Bold
+  italic:
+    family: Iosevka Term
+    style: Italic
+  bold_italic:
+    family: Iosevka Term
+    style: Bold Italic
+  size: 12.0
+draw_bold_text_with_bright_colors: true
+
+colors:
+  name: vscode (dark)
+  primary:
+    background: "#1E1E1E"
+    foreground: "#D4D4D4"
+  cursor:
+    text: "#1d1f21"
+    cursor: "#cccccc"
+  normal:
+    black: "#000000"
+    red: "#cd3131"
+    green: "#0dbc79"
+    yellow: "#e5e510"
+    blue: "#2472c8"
+    magenta: "#bc3fbc"
+    cyan: "#11a8cd"
+    white: "#e5e5e5"
+  bright:
+    black: "#666666"
+    red: "#f14c4c"
+    green: "#23d18b"
+    yellow: "#f5f543"
+    blue: "#3b8eea"
+    magenta: "#d670d6"
+    cyan: "#29b8db"
+    white: "#e5e5e5"
+
+cursor:
+  style: Block
+  
+key_bindings:
+  - { key: N,              mods: Control,                    action: SpawnNewInstance      }
