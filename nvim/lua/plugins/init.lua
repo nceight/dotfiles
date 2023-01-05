@@ -26,6 +26,7 @@ packer.startup(function(use)
     use "williamboman/mason.nvim"                                               -- UI for fetching/downloading LSPs
     use "williamboman/mason-lspconfig.nvim"                                     -- Bridges mason and lspconfig
     use 'neovim/nvim-lspconfig'                                                 -- Language server protocol implementation
+    use 'glepnir/lspsaga.nvim'                                                  -- Lsp Performant UI
     use 'jose-elias-alvarez/null-ls.nvim'                                       -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
     use 'hrsh7th/cmp-nvim-lsp'                                                  -- Cmp's own LSP
     use 'hrsh7th/cmp-buffer'                                                    -- Cmp source for buffer words
