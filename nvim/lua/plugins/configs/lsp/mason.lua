@@ -17,7 +17,7 @@ if not present_lspconfig then
 end
 
 local servers = {
-    "sumneko_lua",
+    "lua_ls",
     "rust_analyzer",
     "tsserver",
 }
